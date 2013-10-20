@@ -1,10 +1,10 @@
-require 'app/presenters/A'
-require 'app/presenters/B'
+require 'app/presenters/a'
+require 'app/presenters/b'
 
 class AboutController < ApplicationController
   get '/' do
-    @a = APresenter.new
-    @b = BPresenter.new
+    @a = Presenters::A.new
+    @b = Presenters::B.new
 
     title 'About'
     erb :about

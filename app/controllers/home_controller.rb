@@ -1,8 +1,8 @@
-require 'app/presenters/A'
+require 'app/presenters/a'
 
 class HomeController < ApplicationController
   get '/' do
-      @a = APresenter.new
+      @a = Presenters::A.new
 
       title 'Home'
       erb :home

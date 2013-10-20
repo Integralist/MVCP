@@ -6,7 +6,7 @@ class ApplicationController < Sinatra::Base
     MONTH = 2678400 # ((60*60)*24)*31
 
     set :views,                File.expand_path('../../views', __FILE__)
-    set :public_folder,        File.expand_path('../../', __FILE__)
+    set :public_folder,        File.expand_path('../../../', __FILE__)
     set :static_cache_control, [:public, :max_age => MONTH]
     set :server,               %w[thin webrick]
 
