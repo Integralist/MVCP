@@ -1,0 +1,21 @@
+body {
+    background-color: #E2E2E2;
+    font: 100%/1.5 sans-serif;
+    margin: auto;
+    max-width: 60em; /* 960px / 16px */
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.component {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.component--a {
+    border-color: red;
+}
+
+.component--b {
+    border-color: blue;
+}

@@ -1,0 +1,13 @@
+<h1><%= @title %></h1>
+
+<%
+  begin
+%>
+  <%= xyz %>
+<%
+  rescue
+%>
+  <%= "No xyz local variable found" %>
+<%
+  end
+%>

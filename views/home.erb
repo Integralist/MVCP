@@ -1,0 +1,5 @@
+<h1><%= @title %></h1>
+
+<% if @a.run %>
+  <%= partial(:"components/a", { :title => @a.title, :summary => @a.summary, :data => @a.data }) %>
+<% end %>
