@@ -1,4 +1,4 @@
-class Presenter
+class Base
   def load_model model
     @model = model
   end
