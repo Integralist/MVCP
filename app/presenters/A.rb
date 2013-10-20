@@ -1,5 +1,5 @@
-require './presenters/Presenter'
-require './models/A'
+require 'app/presenters/Presenter'
+require 'app/models/A'
 
 class APresenter < Presenter
   attr_reader :run, :title, :summary, :data

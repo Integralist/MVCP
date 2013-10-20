@@ -1,4 +1,4 @@
-require './presenters/A'
+require 'app/presenters/A'
 
 class HomeController < ApplicationController
   get '/' do

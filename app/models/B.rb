@@ -1,4 +1,4 @@
-require './models/Model'
+require 'app/models/Model'
 
 class BModel < Model
   attr_reader :name, :age

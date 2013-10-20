@@ -1,5 +1,5 @@
-require './presenters/A'
-require './presenters/B'
+require 'app/presenters/A'
+require 'app/presenters/B'
 
 class AboutController < ApplicationController
   get '/' do

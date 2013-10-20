@@ -1,4 +1,4 @@
-require './models/Model'
+require 'app/models/Model'
 
 class AModel < Model
   attr_reader :title, :summary, :data
