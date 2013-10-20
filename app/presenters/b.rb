@@ -1,7 +1,7 @@
 require 'app/presenters/base'
 require 'app/models/b'
 
-class B < Base
+class Presenters::B < Presenters::Base
   attr_reader :run, :name, :age
 
   def initialize
