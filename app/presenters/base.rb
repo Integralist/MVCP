@@ -1,8 +1,6 @@
 module Presenters
   class Base
-    def load_model model
-      @model = model
-    end
+    attr_accessor :model
 
     def prepare_view_data hash
       hash.each do |name, value|
