@@ -1,6 +1,6 @@
-require 'app/models/Model'
+require 'app/models/base'
 
-class AModel < Model
+class A < Base
   attr_reader :title, :summary, :data
 
   def initialize title, summary = 'no summary provided'
