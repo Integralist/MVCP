@@ -1,8 +1,10 @@
-require 'sinatra/base'
-require './helpers/application_helper'
-require './controllers/application_controller'
+$: << File.expand_path('..', __FILE__)
 
-Dir.glob('./{helpers,controllers}/*.rb').each { |file| require file }
+require 'sinatra/base'
+require 'app/helpers/application_helper'
+require 'app/controllers/application_controller'
+
+Dir.glob('app/{helpers,controllers}/*.rb').each { |file| require file }
 
 map('/')        { run HomeController    }
 map('/about')   { run AboutController   }

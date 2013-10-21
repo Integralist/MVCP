@@ -1,6 +1,6 @@
-require './models/Model'
+require 'app/models/base'
 
-class BModel < Model
+class B < Base
   attr_reader :name, :age
 
   def initialize name, age

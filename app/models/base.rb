@@ -1,6 +1,6 @@
 require 'date'
 
-class Model
+class Base
   attr_accessor :date
 
   def initialize
