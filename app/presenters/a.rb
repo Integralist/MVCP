@@ -7,7 +7,7 @@ class Presenters::A < Presenters::Base
   def initialize
     @run = true
 
-    model = A.new('Presenter A Title', 'Presenter A Summary')
-    prepare_view_data({ :title => @model.title, :summary => @model.summary, :data => @model.data })
+    model = ::A.new('Presenter A Title', 'Presenter A Summary')
+    prepare_view_data({ :title => model.title, :summary => model.summary, :data => model.data })
   end
 end
