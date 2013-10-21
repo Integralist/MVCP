@@ -25,16 +25,13 @@ then have a presenter handle the preparation of view data.
 
 ## Directory Structure
 
-- assets
+- app
+  - controllers
+  - helpers
+  - models
+  - presenters
+  - views
+    - components 
+- public
     - scripts
     - styles
-- controllers
-- helpers
-- models
-- presenters
-- views
-  - components
-
-## Notes
-
-You'll need to use relative paths throughout the application
