@@ -8,6 +8,6 @@ class Presenters::B < Presenters::Base
     @run = true
 
     model = B.new('Mark', '99')
-    prepare_view_data({ :name => @model.name, :age => @model.age })
+    prepare_view_data({ :name => model.name, :age => model.age })
   end
 end
